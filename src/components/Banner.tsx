@@ -1,21 +1,23 @@
 const Banner = () => {
   return (
-    <div className="flex max-w-[1730px] mx-auto">
-      <div className="w-[435px] flex flex-col items-center justify-center">
-        <h2 className="text-[140px] font-bold w-full text-center leading-none">
-          LUSH
-        </h2>
+    <div className="flex max-w-[1600px] h-[787px] items-center mx-auto justify-between gap-12 py-24">
+      <div className="flex flex-col items-center justify-between h-full">
+        <img
+          src="/img/banner/banner-txt.png"
+          alt="Banner-txt"
+          className="w-full object-contain"
+        />
         <img
           src="/img/banner/banner-left.png"
           alt="Banner-left"
-          className="w-full"
+          className="w-full object-contain"
         />
       </div>
-      <div className="flex-1 flex items-center justify-center">
+      <div className="w-full h-full overflow-hidden">
         <img
           src="/img/banner/banner-right.png"
           alt="Banner-right"
-          className="w-full h-full object-cover"
+          className="object-cover w-full h-full"
         />
       </div>
     </div>
