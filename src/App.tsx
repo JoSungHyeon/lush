@@ -3,6 +3,8 @@ import Banner from './components/Banner';
 import MiddleText from './components/MiddleText';
 import Items from './components/Items';
 import MiddleBanner from './components/MiddleBanner';
+import BottomBanner from './components/BottomBanner';
+import Footer from './components/Footer';
 const App: React.FC = () => {
   return (
     <div>
@@ -11,6 +13,8 @@ const App: React.FC = () => {
       <MiddleText />
       <Items />
       <MiddleBanner />
+      <BottomBanner />
+      <Footer />
     </div>
   );
 };

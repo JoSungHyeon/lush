@@ -24,22 +24,21 @@ a,
 a:hover,
 a:active,
 a:visited {
-  text-decoration: none;
-  color: inherit;
+  /* text-decoration: none; */
+  /* color: inherit; */
 }
 
-ul,
+/* ul,
 li,
 il {
   list-style: none;
-}
+} */
 
-/* body {
+body {
   background: url('/img/bg.png') no-repeat;
   background-size: cover;
   width: 100%;
-  height: 5000px;
-} */
+}
 
 /* 
 :root {
